@@ -27,7 +27,7 @@ More information about our HTTP client is is available [here](https://www.npmjs.
 
 There is currently no way of moving from one image in the list to the next! 
 
-##### Filter Images  
+#### Filter Images  
 
 Once you're able to scroll through available scans, it may be useful to filter out images that have no gas detections. Each image should have a *detectionList* field in its metadata. A simple toggle should do the trick!  
 
