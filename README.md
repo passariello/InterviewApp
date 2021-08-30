@@ -40,6 +40,11 @@ Each scan has certain metadata associated with it. Examples include confidence l
 
 If an image has a "detection" (gas identified by our internal algorithms), than the detection (found in *detectionsList*) will have a list of coordinates called *roicoordsList*. These are the coordinates of our "*Regions of Interest*": red boxes we draw on the image to indicate where exactly the detection was found. Draw the boxes on the image based on the coordinates provided. 
 
+#### Navigation Bar  
+
+The site is currently only one page! It would be nice to have a navigation bar that let you see other pages (e.g. Account, Settings).\
+Basic page routing can be done with [react router](https://reactrouter.com/web/guides/quick-start). 
+
 #### Switch Selected Cameras
 
 The jsonserver has a list of available cameras. It would be helpful to get that list in the frontend, and allow the user to select which camera they would like to see. 
