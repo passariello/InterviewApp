@@ -18,7 +18,7 @@ More information about available scripts can be found [here](https://facebook.gi
 This project mimics our production application APIs using the json-server package. The mock server runs on port 7071.\
 The json files contain a list of organizations (e.g. Kuva clients), a list of available cameras, and a list of gas events (this includes a *scanresults* object: an array of images and their associated metadata). You can read and write to the json files using standard HTTP Methods (GET, POST, PUT, DELETE). The project currently uses Axios to handle HTTP requests. 
 
-More information about the server is available [here](https://www.npmjs.com/package/json-server).
+More information about the server is available [here](https://www.npmjs.com/package/json-server).\
 More information about our HTTP client is is available [here](https://www.npmjs.com/package/axiosr).
 
 ### Recommended Tasks
@@ -48,6 +48,6 @@ The jsonserver has a list of available cameras. It would be helpful to get that 
 
 As our projects get larger and more complex, it becomes harder to manage our application's state and make certain variables widely available. Certain tools simplify the process. Redux and React *Contexts* are two such tools. Implement either in the best way you see fit. 
 
-More information about redux can be found [here](https://redux.js.org/introduction/getting-started).
+More information about Redux can be found [here](https://redux.js.org/introduction/getting-started).\
 More information about React Context can be found [here](https://reactjs.org/docs/context.html).
 
