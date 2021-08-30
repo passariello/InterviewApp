@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+## Interview Application Instructions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a barebones version of our production application. It is a basic web page that calls a mock API and displays images from said request. At a minimum, we will be reviewing this code during your technical interview. We recommend interested applicants fork this repository and improve it in any way they see fit. You can find a list of recommended tasks below that closely mimic current Kuva projects. We understand that applicants are busy and have their own work to prioritize, so it is not necessary that you complete all the tasks. That being said, finishing at least one of them will give you a feel for the work we do! 
 
-## Available Scripts
+Have fun with it! If you find a bug, dislike the UX, or are frustrated by the file structure, change it! This should be a fun way of showcasing your frontend interests and skills. 
 
-In the project directory, you can run:
+### Running the Project 
 
-### `npm start`
+#### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This command concurrently runs the app on port 3000 & a jsonserver on port 7071.\
+Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+More information about available scripts can be found [here](https://facebook.github.io/create-react-app/docs/getting-started). 
 
-### `npm test`
+### JSON Server 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project mimics our production application APIs using the json-server package. The mock server runs on port 7071.\
+The json files contain a list of organizations (e.g. Kuva clients), a list of available cameras, and a list of gas events (this includes a *scanresults* object: an array of images and their associated metadata). You can read and write to the json files using standard HTTP Methods (GET, POST, PUT, DELETE). The project currently uses Axios to handle HTTP requests. 
 
-### `npm run build`
+More information about the server is available [here](https://www.npmjs.com/package/json-server).\
+More information about our HTTP client is is available [here](https://www.npmjs.com/package/axiosr).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Recommended Tasks
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Right & Left Arrow Buttons 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+There is currently no way of moving from one image in the list to the next! 
 
-### `npm run eject`
+#### Filter Images  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Once you're able to scroll through available scans, it may be useful to filter out images that have no gas detections. Each image should have a *detectionList* field in its metadata. A simple toggle should do the trick!  
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Display Image Metadata
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Each scan has certain metadata associated with it. Examples include confidence levels (*overallConf*) and noise floor levels (*noiseFloorMetric*). Similarly, images with detections (*detectionsList*) will have metadata associated with those detections. None of this information is currently being displayed. 
+ 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Add Detection Boxes
 
-## Learn More
+If an image has a "detection" (gas identified by our internal algorithms), than the detection (found in *detectionsList*) will have a list of coordinates called *roicoordsList*. These are the coordinates of our "*Regions of Interest*": red boxes we draw on the image to indicate where exactly the detection was found. Draw the boxes on the image based on the coordinates provided. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Navigation Bar  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The site is currently only one page! It would be nice to have a navigation bar that let you see other pages (e.g. Account, Settings).\
+Basic page routing can be done with [react router](https://reactrouter.com/web/guides/quick-start). 
 
-### Code Splitting
+#### Switch Selected Cameras
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The jsonserver has a list of available cameras. It would be helpful to get that list in the frontend, and allow the user to select which camera they would like to see. 
 
-### Analyzing the Bundle Size
+#### Redux/Context  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+As our projects get larger and more complex, it becomes harder to manage our application's state and make certain variables widely available. Certain tools simplify the process. Redux and React *Contexts* are two such tools. Implement either in the best way you see fit. 
 
-### Making a Progressive Web App
+More information about Redux can be found [here](https://redux.js.org/introduction/getting-started).\
+More information about React Context can be found [here](https://reactjs.org/docs/context.html).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
