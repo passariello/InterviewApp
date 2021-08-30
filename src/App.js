@@ -67,7 +67,7 @@ function App() {
           <div> Image Metadata: INCOMPLETE </div>
           <div> Number of Detections: INCOMPLETE </div>
         </div>
-        {/* TODO: This button also does nothing.  */}
+        {/* TODO: This button also does nothing  */}
         <button type="button">Next Image</button>
       </div>
     </div>
