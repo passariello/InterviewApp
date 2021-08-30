@@ -1,5 +1,6 @@
 import "./App.css";
 import { useEffect, useState } from "react";
+import NavigationBar from "./pages/NavigationBar";
 
 function App() {
   const axios = require("axios");
@@ -31,33 +32,44 @@ function App() {
         height: "100vh",
         display: "flex",
         flexDirection: "row",
-        justifyContent: "center",
-        alignItems: "center",
-        alignContent: "center",
       }}
     >
-      {/* TODO: This button does nothing!  */}
-      <button type="button">Previous Image</button>
-      <div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "space-between",
-          }}
-        >
-          <div> {images.length} total images </div>
-          <div> Index: {currentImageIndex} </div>
+      <NavigationBar />
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          alignItems: "center",
+          alignContent: "center",
+          width: "85%",
+          height: "100%",
+        }}
+      >
+        {/* TODO: This button does nothing!  */}
+        <button type="button">Previous Image</button>
+        <div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+            }}
+          >
+            <div> {images.length} total images </div>
+            <div> Index: {currentImageIndex} </div>
+          </div>
+          {images.length > 0 && <img src={images[currentImageIndex].jpg} />}
+          {images[currentImageIndex]?.createdOn && (
+            <div> Scan Timestamp: {images[currentImageIndex].createdOn} </div>
+          )}
+          {/* TODO: Finish adding image metadata!  */}
+          <div> Image Metadata: INCOMPLETE </div>
+          <div> Number of Detections: INCOMPLETE </div>
         </div>
-        {images.length > 0 && <img src={images[currentImageIndex].jpg} />}
-        {/* TODO: Confirm that image[currentImageIndex] exists and has a createdOn field!  */}
-        <div> Scan Timestamp: {images[currentImageIndex].createdOn} </div>
-        {/* TODO: Finish adding image metadata!  */}
-        <div> Image Metadata: INCOMPLETE </div>
-        <div> Number of Detections: INCOMPLETE </div>
+        {/* TODO: This button also does nothing.  */}
+        <button type="button">Next Image</button>
       </div>
-      {/* TODO: This button also does nothing.  */}
-      <button type="button">Next Image</button>
     </div>
   );
 }
