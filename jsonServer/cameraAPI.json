@@ -1,0 +1,658 @@
+{
+  "events": {
+    "events": [
+      {
+        "end": "2021-06-08T21:22:14Z",
+        "start": "2021-06-08T21:16:58Z",
+        "id": "f86126630ce8fdbb79fc19f75b15cf1948397a4d"
+      },
+      {
+        "end": "2021-06-08T19:06:24Z",
+        "start": "2021-06-08T18:53:45Z",
+        "id": "2214d664b1a86ddc15354094ba497fae58b0e592"
+      }
+    ],
+    "eventsNum": 2,
+    "scanResults": [
+      {
+        "id": "8b53ee36-c8a0-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/8b53ee36-c8a0-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T21:28:33Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [],
+        "overallConf": 0,
+        "alert": false,
+        "noiseFloorMetric": 123.65985768212795,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/8b53ee36-c8a0-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "65bda11c-c8a0-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/65bda11c-c8a0-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T21:27:30Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "65b3ce12-c8a0-11eb-8a22-0242ac120005",
+            "roicoordsList": [52, 39, 57, 39, 57, 48, 52, 48],
+            "meancoldens": 2510.4157196969695,
+            "meanconf": 0.1120043234391646,
+            "sumconf": 3.6961426734924316
+          },
+          {
+            "uuid": "65bd5b58-c8a0-11eb-8a22-0242ac120005",
+            "roicoordsList": [156, 231, 174, 231, 174, 249, 156, 249],
+            "meancoldens": 738.4933136261261,
+            "meanconf": 1.081873300913218,
+            "sumconf": 240.17587280273438
+          }
+        ],
+        "overallConf": 243.87200927734375,
+        "alert": true,
+        "noiseFloorMetric": 124.27887590143406,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/65bda11c-c8a0-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "3fc4495c-c8a0-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/3fc4495c-c8a0-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T21:26:27Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "3fc3eafc-c8a0-11eb-8a22-0242ac120005",
+            "roicoordsList": [29, 52, 39, 52, 39, 68, 29, 68],
+            "meancoldens": 2559.6314935064934,
+            "meanconf": 0.13624333716058112,
+            "sumconf": 10.490736961364746
+          }
+        ],
+        "overallConf": 10.490736961364746,
+        "alert": false,
+        "noiseFloorMetric": 125.09328748686957,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/3fc4495c-c8a0-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "1a7c2ce6-c8a0-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/1a7c2ce6-c8a0-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T21:25:24Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "1a7bd048-c8a0-11eb-8a22-0242ac120005",
+            "roicoordsList": [9, 8, 14, 8, 14, 22, 9, 22],
+            "meancoldens": 4069.1237745098038,
+            "meanconf": 0.08641641280230354,
+            "sumconf": 4.4072370529174805
+          }
+        ],
+        "overallConf": 4.4072370529174805,
+        "alert": false,
+        "noiseFloorMetric": 119.63506127968293,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/1a7c2ce6-c8a0-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "f48b41c0-c89f-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/f48b41c0-c89f-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T21:24:20Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "f4825ace-c89f-11eb-8a22-0242ac120005",
+            "roicoordsList": [30, 52, 50, 52, 50, 67, 30, 67],
+            "meancoldens": 2654.176738410596,
+            "meanconf": 0.10522583462544624,
+            "sumconf": 15.889101028442383
+          },
+          {
+            "uuid": "f48af80a-c89f-11eb-8a22-0242ac120005",
+            "roicoordsList": [45, 76, 57, 76, 57, 88, 45, 88],
+            "meancoldens": 1962.8220703125,
+            "meanconf": 0.1266347050666809,
+            "sumconf": 10.130776405334473
+          }
+        ],
+        "overallConf": 26.019878387451172,
+        "alert": false,
+        "noiseFloorMetric": 119.5206824026368,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/f48b41c0-c89f-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "d11a0032-c89f-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/d11a0032-c89f-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T21:23:17Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "d119b24e-c89f-11eb-8a22-0242ac120005",
+            "roicoordsList": [29, 51, 45, 51, 45, 70, 29, 70],
+            "meancoldens": 3042.4264112903224,
+            "meanconf": 0.17114230125181137,
+            "sumconf": 31.832468032836914
+          }
+        ],
+        "overallConf": 31.832468032836914,
+        "alert": false,
+        "noiseFloorMetric": 119.39907567712129,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/d11a0032-c89f-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "a97633de-c89f-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/a97633de-c89f-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T21:22:14Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "a96d477e-c89f-11eb-8a22-0242ac120005",
+            "roicoordsList": [26, 45, 52, 45, 52, 70, 26, 70],
+            "meancoldens": 3287.5553482587065,
+            "meanconf": 0.14236962617333257,
+            "sumconf": 57.23258972167969
+          },
+          {
+            "uuid": "a975ee42-c89f-11eb-8a22-0242ac120005",
+            "roicoordsList": [53, 60, 64, 60, 64, 68, 53, 68],
+            "meancoldens": 1984.9352463942307,
+            "meanconf": 0.19856865589435285,
+            "sumconf": 10.325570106506348
+          }
+        ],
+        "overallConf": 67.55815887451172,
+        "alert": true,
+        "noiseFloorMetric": 162.55770818324137,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/a97633de-c89f-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "848178ae-c89f-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/848178ae-c89f-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T21:21:11Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "8481386c-c89f-11eb-8a22-0242ac120005",
+            "roicoordsList": [27, 33, 66, 33, 66, 67, 27, 67],
+            "meancoldens": 2856.266425755585,
+            "meanconf": 0.13357251201133377,
+            "sumconf": 101.648681640625
+          }
+        ],
+        "overallConf": 101.648681640625,
+        "alert": true,
+        "noiseFloorMetric": 158.68648177089204,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/848178ae-c89f-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "5db454c6-c89f-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/5db454c6-c89f-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T21:20:08Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "5db4109c-c89f-11eb-8a22-0242ac120005",
+            "roicoordsList": [35, 43, 69, 43, 69, 72, 35, 72],
+            "meancoldens": 2303.145327669903,
+            "meanconf": 0.12637358730279127,
+            "sumconf": 52.06591796875
+          }
+        ],
+        "overallConf": 52.06591796875,
+        "alert": true,
+        "noiseFloorMetric": 154.04413455446155,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/5db454c6-c89f-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "38f7839c-c89f-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/38f7839c-c89f-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T21:19:04Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "38f7276c-c89f-11eb-8a22-0242ac120005",
+            "roicoordsList": [35, 40, 70, 40, 70, 69, 35, 69],
+            "meancoldens": 3003.107451403888,
+            "meanconf": 0.12968222368870647,
+            "sumconf": 60.042869567871094
+          }
+        ],
+        "overallConf": 60.042869567871094,
+        "alert": true,
+        "noiseFloorMetric": 156.8665100842636,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/38f7839c-c89f-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "1247c22a-c89f-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/1247c22a-c89f-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T21:18:01Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "12477414-c89f-11eb-8a22-0242ac120005",
+            "roicoordsList": [33, 77, 53, 77, 53, 93, 33, 93],
+            "meancoldens": 1543.776455965909,
+            "meanconf": 0.1093491640957919,
+            "sumconf": 19.245452880859375
+          }
+        ],
+        "overallConf": 19.245452880859375,
+        "alert": false,
+        "noiseFloorMetric": 160.57572008147548,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/1247c22a-c89f-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "ed108df2-c89e-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/ed108df2-c89e-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T21:16:58Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "ecfe7306-c89e-11eb-8a22-0242ac120005",
+            "roicoordsList": [36, 48, 66, 48, 66, 65, 36, 65],
+            "meancoldens": 3147.1316199376947,
+            "meanconf": 0.13022085885021173,
+            "sumconf": 41.80089569091797
+          },
+          {
+            "uuid": "ed0756b0-c89e-11eb-8a22-0242ac120005",
+            "roicoordsList": [36, 76, 50, 76, 50, 91, 36, 91],
+            "meancoldens": 2096.044671474359,
+            "meanconf": 0.13850144850902069,
+            "sumconf": 10.803112983703613
+          },
+          {
+            "uuid": "ed10423e-c89e-11eb-8a22-0242ac120005",
+            "roicoordsList": [205, 255, 219, 255, 219, 267, 205, 267],
+            "meancoldens": 598.2807513297872,
+            "meanconf": 0.38897660438050613,
+            "sumconf": 36.56380081176758
+          }
+        ],
+        "overallConf": 89.16780853271484,
+        "alert": true,
+        "noiseFloorMetric": 165.03542806190387,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/ed108df2-c89e-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "c7873ae0-c89e-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/c7873ae0-c89e-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T21:15:55Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [],
+        "overallConf": 0,
+        "alert": false,
+        "noiseFloorMetric": 121.16823901363097,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/c7873ae0-c89e-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "21a645aa-c88d-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/21a645aa-c88d-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T19:09:33Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "21a60888-c88d-11eb-8a22-0242ac120005",
+            "roicoordsList": [9, 1, 29, 1, 29, 24, 9, 24],
+            "meancoldens": 3945.2950819672133,
+            "meanconf": 0.10875954132913891,
+            "sumconf": 39.805992126464844
+          }
+        ],
+        "overallConf": 39.805992126464844,
+        "alert": false,
+        "noiseFloorMetric": 86.16301821547123,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/21a645aa-c88d-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "fba8e7fe-c88c-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/fba8e7fe-c88c-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T19:08:30Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "fba8a3de-c88c-11eb-8a22-0242ac120005",
+            "roicoordsList": [8, 1, 39, 1, 39, 23, 8, 23],
+            "meancoldens": 5183.254830917875,
+            "meanconf": 0.08974827199742413,
+            "sumconf": 37.155784606933594
+          }
+        ],
+        "overallConf": 37.155784606933594,
+        "alert": false,
+        "noiseFloorMetric": 87.70602382263517,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/fba8e7fe-c88c-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "d60fb55e-c88c-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/d60fb55e-c88c-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T19:07:27Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "d60f78e6-c88c-11eb-8a22-0242ac120005",
+            "roicoordsList": [8, 1, 33, 1, 33, 23, 8, 23],
+            "meancoldens": 5156.424796747968,
+            "meanconf": 0.08378026802042313,
+            "sumconf": 30.914918899536133
+          }
+        ],
+        "overallConf": 30.914918899536133,
+        "alert": false,
+        "noiseFloorMetric": 88.46340828055463,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/d60fb55e-c88c-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "afe16a58-c88c-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/afe16a58-c88c-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T19:06:24Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "afe0f2d0-c88c-11eb-8a22-0242ac120005",
+            "roicoordsList": [9, 1, 29, 1, 29, 24, 9, 24],
+            "meancoldens": 5008.560249307479,
+            "meanconf": 0.1563591151356367,
+            "sumconf": 56.445640563964844
+          }
+        ],
+        "overallConf": 56.445640563964844,
+        "alert": true,
+        "noiseFloorMetric": 88.38175832076219,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/afe16a58-c88c-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "89a4ea90-c88c-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/89a4ea90-c88c-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T19:05:21Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "89a49284-c88c-11eb-8a22-0242ac120005",
+            "roicoordsList": [8, 1, 29, 1, 29, 24, 8, 24],
+            "meancoldens": 5440.122875354107,
+            "meanconf": 0.13131958094264562,
+            "sumconf": 46.355812072753906
+          }
+        ],
+        "overallConf": 46.355812072753906,
+        "alert": false,
+        "noiseFloorMetric": 88.70326587687,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/89a4ea90-c88c-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "649183b2-c88c-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/649183b2-c88c-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T19:04:17Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "64910d60-c88c-11eb-8a22-0242ac120005",
+            "roicoordsList": [5, 1, 29, 1, 29, 24, 5, 24],
+            "meancoldens": 5183.602922885572,
+            "meanconf": 0.12741425737219664,
+            "sumconf": 51.22053146362305
+          }
+        ],
+        "overallConf": 51.22053146362305,
+        "alert": true,
+        "noiseFloorMetric": 88.51767640056164,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/649183b2-c88c-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "3de48a8e-c88c-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/3de48a8e-c88c-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T19:03:14Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "3de183d4-c88c-11eb-8a22-0242ac120005",
+            "roicoordsList": [0, 1, 29, 1, 29, 25, 0, 25],
+            "meancoldens": 4807.10595703125,
+            "meanconf": 0.14249393343925476,
+            "sumconf": 72.95689392089844
+          }
+        ],
+        "overallConf": 72.95689392089844,
+        "alert": true,
+        "noiseFloorMetric": 86.9970870620482,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/3de48a8e-c88c-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "18ce9a46-c88c-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/18ce9a46-c88c-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T19:02:11Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "18ce4bae-c88c-11eb-8a22-0242ac120005",
+            "roicoordsList": [6, 3, 29, 3, 29, 26, 6, 26],
+            "meancoldens": 6359.036301369863,
+            "meanconf": 0.14755286647848886,
+            "sumconf": 53.85679626464844
+          }
+        ],
+        "overallConf": 53.85679626464844,
+        "alert": true,
+        "noiseFloorMetric": 85.27305626350717,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/18ce9a46-c88c-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "f33ca71e-c88b-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/f33ca71e-c88b-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T19:01:08Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "f33c666e-c88b-11eb-8a22-0242ac120005",
+            "roicoordsList": [6, 1, 32, 1, 32, 24, 6, 24],
+            "meancoldens": 6279.163438256659,
+            "meanconf": 0.13719661241582173,
+            "sumconf": 56.662200927734375
+          }
+        ],
+        "overallConf": 56.662200927734375,
+        "alert": true,
+        "noiseFloorMetric": 78.94482589851066,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/f33ca71e-c88b-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "cd7c8d1e-c88b-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/cd7c8d1e-c88b-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T19:00:05Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "cd7c3c74-c88b-11eb-8a22-0242ac120005",
+            "roicoordsList": [6, 1, 33, 1, 33, 24, 6, 24],
+            "meancoldens": 6325.030864197531,
+            "meanconf": 0.1833367618513696,
+            "sumconf": 74.25138854980469
+          }
+        ],
+        "overallConf": 74.25138854980469,
+        "alert": true,
+        "noiseFloorMetric": 81.13132382334112,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/cd7c8d1e-c88b-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "a7b984ec-c88b-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/a7b984ec-c88b-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T18:59:01Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "a7b932a8-c88b-11eb-8a22-0242ac120005",
+            "roicoordsList": [6, 1, 29, 1, 29, 24, 6, 24],
+            "meancoldens": 6830.399503722085,
+            "meanconf": 0.17787503604557614,
+            "sumconf": 71.68363952636719
+          }
+        ],
+        "overallConf": 71.68363952636719,
+        "alert": true,
+        "noiseFloorMetric": 82.6886108824655,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/a7b984ec-c88b-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "821bc902-c88b-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/821bc902-c88b-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T18:57:58Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "821861fe-c88b-11eb-8a22-0242ac120005",
+            "roicoordsList": [12, 1, 28, 1, 28, 23, 12, 23],
+            "meancoldens": 4690.374155405405,
+            "meanconf": 0.16613092937984983,
+            "sumconf": 49.17475509643555
+          }
+        ],
+        "overallConf": 49.17475509643555,
+        "alert": false,
+        "noiseFloorMetric": 84.85484249642533,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/821bc902-c88b-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "5ccedf40-c88b-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/5ccedf40-c88b-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T18:56:55Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [],
+        "overallConf": 0,
+        "alert": false,
+        "noiseFloorMetric": 85.49014105550445,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/5ccedf40-c88b-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "367ce76a-c88b-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/367ce76a-c88b-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T18:55:52Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "3672c0dc-c88b-11eb-8a22-0242ac120005",
+            "roicoordsList": [9, 1, 28, 1, 28, 23, 9, 23],
+            "meancoldens": 4591.314903846154,
+            "meanconf": 0.15021538123106346,
+            "sumconf": 46.8671989440918
+          },
+          {
+            "uuid": "367c9d3c-c88b-11eb-8a22-0242ac120005",
+            "roicoordsList": [32, 10, 45, 10, 45, 25, 32, 25],
+            "meancoldens": 5435.238247863248,
+            "meanconf": 0.069487547263121,
+            "sumconf": 8.130043029785156
+          }
+        ],
+        "overallConf": 54.99724197387695,
+        "alert": true,
+        "noiseFloorMetric": 85.33873989446931,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/367ce76a-c88b-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "11aad960-c88b-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/11aad960-c88b-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T18:54:49Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "11a781e8-c88b-11eb-8a22-0242ac120005",
+            "roicoordsList": [11, 1, 28, 1, 28, 23, 11, 23],
+            "meancoldens": 4630.294396551724,
+            "meanconf": 0.1365729496396821,
+            "sumconf": 39.60615539550781
+          }
+        ],
+        "overallConf": 39.60615539550781,
+        "alert": false,
+        "noiseFloorMetric": 84.29910554854712,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/11aad960-c88b-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "eb08f68e-c88a-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/eb08f68e-c88a-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T18:53:45Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "eafda5cc-c88a-11eb-8a22-0242ac120005",
+            "roicoordsList": [11, 1, 28, 1, 28, 23, 11, 23],
+            "meancoldens": 4920.675,
+            "meanconf": 0.1596752501370614,
+            "sumconf": 45.5074462890625
+          },
+          {
+            "uuid": "eb08b638-c88a-11eb-8a22-0242ac120005",
+            "roicoordsList": [32, 10, 47, 10, 47, 27, 32, 27],
+            "meancoldens": 5831.421052631579,
+            "meanconf": 0.07915355657276354,
+            "sumconf": 12.031340599060059
+          }
+        ],
+        "overallConf": 57.538787841796875,
+        "alert": true,
+        "noiseFloorMetric": 86.81269483682173,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/eb08f68e-c88a-11eb-8a22-0242ac120005.png"
+      },
+      {
+        "id": "c685a9d8-c88a-11eb-8a22-0242ac120005",
+        "fileName": "November/2021/Jun/08/c685a9d8-c88a-11eb-8a22-0242ac120005.scres",
+        "createdOn": "2021-06-08T18:52:42Z",
+        "blobContainer": "scan-results",
+        "detectionsList": [
+          {
+            "uuid": "c67751ee-c88a-11eb-8a22-0242ac120005",
+            "roicoordsList": [10, 1, 31, 1, 31, 31, 10, 31],
+            "meancoldens": 4457.587846347607,
+            "meanconf": 0.08885419638991657,
+            "sumconf": 35.275115966796875
+          },
+          {
+            "uuid": "c684cae0-c88a-11eb-8a22-0242ac120005",
+            "roicoordsList": [32, 15, 48, 15, 48, 31, 32, 31],
+            "meancoldens": 5183.96,
+            "meanconf": 0.07286307525634765,
+            "sumconf": 9.107884407043457
+          }
+        ],
+        "overallConf": 44.382999420166016,
+        "alert": false,
+        "noiseFloorMetric": 87.01117069585418,
+        "jpg": "https://img.kuvasystems.com/kuva/v1/img/scres/scan-results/November/2021/Jun/08/c685a9d8-c88a-11eb-8a22-0242ac120005.png"
+      }
+    ],
+    "hasTelemetry": true,
+    "detectionNum": 33,
+    "maxgapminutes": 4,
+    "evtminframes": 4,
+    "minConf": 50
+  },
+  "camera": [
+    { "deviceId": "1", "tags": { "name": "Alfa", "organization": 2 } },
+    {
+      "deviceId": "2",
+      "tags": { "name": "Beta", "organization": 1 },
+      "connectionState": "Connected"
+    },
+    {
+      "deviceId": "November",
+      "tags": {
+        "name": "November",
+        "organization": 1
+      }
+    }
+  ],
+  "alarms": [
+    {
+      "id": "120c6380-a133-11eb-bff8-0242ac120004",
+      "deviceId": "November",
+      "start": "2021-04-19T17:41:05Z",
+      "end": "2021-04-19T18:41:05Z",
+      "detectionReportID": 1
+    },
+    {
+      "id": "15f1ef66-a12d-11eb-bff8-0242ac120004",
+      "deviceId": "November",
+      "start": "2021-04-19T17:41:05Z",
+      "end": "2021-04-19T18:41:05Z",
+      "detectionReportID": 2,
+      "emissionSourceID": 3
+    }
+  ]
+}

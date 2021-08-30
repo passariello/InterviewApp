@@ -1,0 +1,65 @@
+{
+  "organizations": [
+    {
+      "id": 1,
+      "urlId": "app/api/...",
+      "orgname": "Universe"
+    },
+    {
+      "id": 7,
+      "parent": 1,
+      "orgname": "Earth"
+    },
+    {
+      "id": 11,
+      "parent": 1,
+      "orgname": "Mars"
+    },
+    {
+      "id": 9,
+      "orgname": "France",
+      "parent": 7
+    },
+    {
+      "id": 4,
+      "orgname": "Japan",
+      "parent": 7
+    },
+    {
+      "id": 10,
+      "orgname": "Tokyo",
+      "parent": 4
+    },
+    {
+      "id": 3,
+      "parent": 7,
+      "orgname": "USA",
+      "urlId": "usa/api/...",
+      "logoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn-VctzgdsNERSMU5-4vVpIluXubtTrsLV1DD415T7ewK65scjQulppdZ9QWB8Ef09fx0&usqp=CAU"
+    },
+    {
+      "id": 6,
+      "parent": 3,
+      "orgname": "Texas",
+      "logoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn-VctzgdsNERSMU5-4vVpIluXubtTrsLV1DD415T7ewK65scjQulppdZ9QWB8Ef09fx0&usqp=CAU"
+    },
+    {
+      "id": 8,
+      "parent": 3,
+      "orgname": "Massachusetts",
+      "logoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn-VctzgdsNERSMU5-4vVpIluXubtTrsLV1DD415T7ewK65scjQulppdZ9QWB8Ef09fx0&usqp=CAU"
+    },
+    {
+      "id": 2,
+      "parent": 8,
+      "orgname": "Medford",
+      "logoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn-VctzgdsNERSMU5-4vVpIluXubtTrsLV1DD415T7ewK65scjQulppdZ9QWB8Ef09fx0&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "parent": 3,
+      "orgname": "California",
+      "logoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn-VctzgdsNERSMU5-4vVpIluXubtTrsLV1DD415T7ewK65scjQulppdZ9QWB8Ef09fx0&usqp=CAU"
+    }
+  ]
+}
