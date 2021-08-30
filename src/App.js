@@ -8,6 +8,7 @@ function App() {
   const [images, setImages] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
+  //TODO: API functions (more to be added) should be in their own file!
   const getEvents = () => {
     axios
       .get(`${baseURL}/events`)
@@ -16,6 +17,7 @@ function App() {
         console.log(response);
       })
       .catch(function (error) {
+        //TODO: this should display an error in the UI!
         console.log(error);
       });
   };
